@@ -1,7 +1,9 @@
-# Prueba Viajes Chile
+# Cristian Medina Peña
 
-## Descripción
+## Prueba Viajes Chile
+---
 
+### **Descripción**
 
 Este proyecto es una prueba para la empresa Viajes Chile, el cual consiste en una landing page que muestra información de turismo en Chile.
 

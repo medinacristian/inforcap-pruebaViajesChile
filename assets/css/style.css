@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:hover {
+  outline: 1px solid purple;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-banner {
+  width: 2.5rem;
+}

@@ -26,13 +26,22 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Viajes Chile</title>
   </head>
   <body>
     <header id="header">
-      <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
@@ -40,7 +49,9 @@
               alt="Logo"
               class="d-inline-block align-text-top logo-banner"
             />
-            <h1 class="d-inline-block align-text-top fs-3 fw-bold ps-2">Viajes Chile</h1>
+            <h1 class="d-inline-block align-text-top fs-3 fw-bold ps-2">
+              Viajes Chile
+            </h1>
           </a>
           <button
             class="navbar-toggler"
@@ -56,10 +67,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold active" href="#header">Inicio</a>
+                <a class="nav-link fs-5 fw-bold active" href="#header"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold" href="#">Quienes Somos</a>
+                <a class="nav-link fs-5 fw-bold" href="#quienes-somos"
+                  >Quienes Somos</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link fs-5 fw-bold" href="#">Destacados</a>
@@ -72,6 +87,98 @@
         </div>
       </nav>
     </header>
+
+    <!-- ===Carousel=== -->
+    <section id="carousel">
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="Img Carousel 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="Img Carousel 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/card3.jpg"
+              class="d-block w-100"
+              alt="Img Carousel 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End Carousel -->
+
+    <!-- ===Quienes Somos=== -->
+    <section id="quienes-somos" class="container my-5">
+      <h2 class="text-center my-5 display-5">¿Quiénes Somos?</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+        <div class="col">
+          <div class="card shadow">
+            <i class="fa-solid fa-plane custom-card-img-top" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Avión"></i>
+            <div class="card-body">
+              <p class="card-text px-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque saepe laboriosam earum labore reiciendis quae, cumque amet? Asperiores harum distinctio temporibus odio optio perspiciatis non doloremque! Officia delectus illo impedit illum quidem laudantium cumque commodi cupiditate et animi, libero quae voluptates. Quisquam perferendis in et minima praesentium omnis molestias fuga sit, nisi placeat ipsam quod quo sint cum dolores harum illo nobis unde. Expedita in labore fugit error architecto non perspiciatis nam quaerat iste dignissimos?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-body">
+              <p class="card-text px-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque saepe laboriosam earum labore reiciendis quae, cumque amet? Asperiores harum distinctio temporibus odio optio perspiciatis non doloremque! Officia delectus illo impedit illum quidem laudantium cumque commodi cupiditate et animi, libero quae voluptates. Quisquam perferendis in et minima praesentium omnis molestias fuga sit, nisi placeat ipsam quod quo sint cum dolores harum illo nobis unde. Expedita in labore fugit error architecto non perspiciatis nam quaerat iste dignissimos?
+              </p>
+            </div>
+            <i class="fa-solid fa-mountain-sun custom-card-img-bottom" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Montañas"></i>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <i class="fa-solid fa-route custom-card-img-top" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ruta"></i>
+            <div class="card-body">
+              <p class="card-text px-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque saepe laboriosam earum labore reiciendis quae, cumque amet? Asperiores harum distinctio temporibus odio optio perspiciatis non doloremque! Officia delectus illo impedit illum quidem laudantium cumque commodi cupiditate et animi, libero quae voluptates. Quisquam perferendis in et minima praesentium omnis molestias fuga sit, nisi placeat ipsam quod quo sint cum dolores harum illo nobis unde. Expedita in labore fugit error architecto non perspiciatis nam quaerat iste dignissimos?
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
 
     <!-- Bootstrap -->
     <script

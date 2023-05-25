@@ -1,13 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-:hover {
+/* :hover {
   outline: 1px solid purple;
+} */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  --red: rgb(207, 62, 62);
+  --red2: #fe6565;
+  --custom-radius: 0.8rem;
+
   font-family: 'Raleway', sans-serif;
 }
 
-.logo-banner {
-  width: 2.5rem;
+.nav-color {
+  background-color: var(--red);
+  transition: all 1s ease-in-out;
 }
+
+.nav-transparent {
+  background-color: transparent;
+  transition: all 1s ease-in-out;
+}
+
+
+.logo-banner {
+  width: 2rem;
+}
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+@media (min-width: 1350px) {
+  .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+  }
+}
+
+#quienes-somos i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: #fff;
+  padding: 1rem 0;
+  background-color: var(--red2);
+}
+
+.custom-card-img-top {
+  border-top-left-radius: var(--custom-radius);
+  border-top-right-radius: var(--custom-radius);
+}
+.custom-card-img-bottom {
+  border-bottom-left-radius: var(--custom-radius);
+  border-bottom-right-radius: var(--custom-radius);
+}
+
+#quienes-somos .card {
+  border-radius: var(--custom-radius);
+}
+

@@ -25,7 +25,7 @@ En el proyecto se utilizaron los siguientes componentes:
 - [Tooltip de Bootstrap 5.3](https://getbootstrap.com/docs/5.3/components/tooltips/)
 - [Modal de Bootstrap 5.3](https://getbootstrap.com/docs/5.3/components/modal/)
 - [Toast de Bootstrap 5.3](https://getbootstrap.com/docs/5.3/components/toasts/)
-- [Scrollspy de Bootstrap 5](https://getbootstrap.com/docs/5.3/components/scrollspy/)
+- [Scrollspy de Bootstrap 5.3](https://getbootstrap.com/docs/5.3/components/scrollspy/)
 - [CSS Smooth Scroll](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
 - [Font Roboto de Google Fonts](https://fonts.google.com/specimen/Roboto?query=roboto)
 - [Font Awesome 6.4](https://fontawesome.com/icons)

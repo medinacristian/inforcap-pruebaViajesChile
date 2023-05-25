@@ -2,8 +2,19 @@
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-const minScroll = 10;
+// Bootstrap Toasts
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLive = document.getElementById('liveToast')
 
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLive)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}
+
+
+const minScroll = 10;
 window.addEventListener('scroll', () => {
   if(window.scrollY > minScroll) {
     document.querySelector('.navbar').classList.remove('nav-transparent');

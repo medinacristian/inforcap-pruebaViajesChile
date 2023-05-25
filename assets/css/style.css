@@ -20,12 +20,12 @@ h2 {
 
 .nav-color {
   background-color: var(--red);
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in;
 }
 
 .nav-transparent {
   background-color: transparent;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in;
 }
 
 

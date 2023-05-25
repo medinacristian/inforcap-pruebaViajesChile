@@ -4,7 +4,6 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 const minScroll = 10;
 
-// Function when document is ready
 window.addEventListener('scroll', () => {
   if(window.scrollY > minScroll) {
     document.querySelector('.navbar').classList.remove('nav-transparent');

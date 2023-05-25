@@ -11,7 +11,7 @@
 
 Este proyecto es una prueba para la empresa Viajes Chile, el cual consiste en una landing page que muestra información de turismo en Chile.
 
-El sitio se encuentra desarrollado usando Bootstrap 5 y jQuery.
+El sitio se encuentra desarrollado usando Bootstrap 5.3.
 
 ---
 

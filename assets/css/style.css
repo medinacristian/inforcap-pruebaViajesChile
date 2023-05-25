@@ -87,6 +87,10 @@ h2 {
   color: #fff;
   padding: 0.5rem 2rem;
 }
+#contacto button:hover {
+  background-color: var(--red2);
+  color: #fff;
+}
 
 footer {
   background-color: var(--light-blue);
@@ -95,4 +99,25 @@ footer {
 footer a {
   color: #fff;
   text-decoration: none;
+}
+
+#successModal .btn-modal {
+  background-color: var(--red);
+  color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+#successModal .btn-modal:hover {
+  background-color: var(--red2);
+  color: #fff;
+}
+
+#successModal .modal-header {
+  background-color: var(--light-blue);
+  color: #fff;
+}
+
+#successModal .btn-close {
+  /* background-color: var(--light-blue); */
+  color: #fff;
 }

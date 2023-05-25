@@ -344,7 +344,7 @@
               data-bs-title="Ingrese su mensaje"
             ></textarea>
           </div>
-          <button type="submit" class="btn">Enviar</button>
+          <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#successModal">Enviar</button>
         </form>
       </div>
     </section>
@@ -372,6 +372,45 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="successModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="successModalLabel">
+              Mensaje enviado con éxito
+            </h1>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quod, voluptate, quae voluptas quia quibusdam
+              voluptatibus quos doloribus quidem voluptatem? Quisquam
+              voluptatum, quod, voluptate, quae voluptas quia quibusdam
+              voluptatibus quos doloribus quidem voluptatem?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-modal"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap -->
     <script
